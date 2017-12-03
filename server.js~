@@ -536,13 +536,6 @@ function getData(req) {
         return add
     }
 
-function authen(req, res, callback) {
-        if (global.userSession.has(req.session.username)) {
-            callback()
-        } else {
-            res.render('/')
-        }
-    }
 
 /*app.post('/test', function(req, res) {
     console.log(req.body.name);

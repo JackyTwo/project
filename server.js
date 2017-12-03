@@ -8,7 +8,6 @@ var assert = require('assert')
 var bodyParser = require('body-parser')
 var fileUpload = require('express-fileupload');
 var ObjectID = require('mongodb').ObjectID;
-var favicon = require('serve-favicon')
 //var cookieParser = require('cookie-parser');
 var fs = require('fs');
 app.use(bodyParser.json());

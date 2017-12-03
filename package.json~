@@ -1,22 +1,19 @@
 {
-  "name": "server",
+  "name": "s1178753",
   "description": "s381f project",
   "version": "1.0.0",
   "dependencies": {
-    "assert": "^1.4.1",
-    "body-parser": "^1.18.2",
+
+    "body-parser": "^1.15.0",
+    "consolidate": "^0.14.0",
     "cookie-session": "^2.0.0-beta.3",
-    "ejs": "*",
-    "exif": "0.6",
-    "express": "*",
+    "ejs": "^2.5.7",
+    "express": "^4.13.4",
     "express-fileupload": "latest",
-    "materialize-css": "^0.100.2",
-    "mongodb": "*",
-    "multer": "^1.3.0",
-    "router": "^1.3.2",
-    "serve-favicon": "*"
+    "mongodb": "^2.1.7",
+    "morgan": "^1.7.0",
+    "consolidate": "^0.14.0"
   },
-  "engine": "*",
   "scripts": {
     "start": "node server"
   }
